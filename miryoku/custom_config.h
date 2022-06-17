@@ -18,6 +18,88 @@
       quick-release;
     };
   };
+
+  combos {
+    compatible = "zmk,combos";
+
+    combo_scrnsht {
+        timeout-ms = <50>;
+        key-positions = <1 25>;
+        bindings = <&kp LG(LS(S))>;
+    };
+
+    combo_cut {
+        timeout-ms = <50>;
+        key-positions = <2 26>;
+        bindings = <&kp LC(X)>;
+    };
+
+    combo_copy {
+        timeout-ms = <50>;
+        key-positions = <3 27>;
+        bindings = <&kp LC(C)>;
+    };
+
+    combo_paste {
+        timeout-ms = <50>;
+        key-positions = <4 28>;
+        bindings = <&kp LC(V)>;
+    };
+
+    combo_volmute {
+        timeout-ms = <30>;
+        key-positions = <13 25>;
+        bindings = <&kp C_MUTE>;
+    };
+
+    combo_voldn {
+        timeout-ms = <30>;
+        key-positions = <14 26>;
+        bindings = <&kp C_VOL_DN>;
+    };
+
+    combo_volup {
+        timeout-ms = <30>;
+        key-positions = <15 27>;
+        bindings = <&kp C_VOL_UP>;
+    };
+
+    combo_pworkspace {
+        timeout-ms = <30>;
+        key-positions = <16 28>;
+        bindings = <&kp LC(LG(LEFT))>;
+    };
+
+    combo_nworkspace {
+        timeout-ms = <30>;
+        key-positions = <17 29>;
+        bindings = <&kp LC(LG(RIGHT))>;
+    };
+
+    combo_alttab {
+        timeout-ms = <50>;
+        key-positions = <14 15 16>;
+        bindings = <&kp LA(TAB)>;
+    };
+
+    combo_cbspc {
+        timeout-ms = <30>;
+        key-positions = <20 31>;
+        bindings = <&kp LC(BSPC)>;
+    };
+
+    combo_cdel {
+        timeout-ms = <30>;
+        key-positions = <20 33>;
+        bindings = <&kp LC(DELETE)>;
+    };
+
+    combo_tab {
+        timeout-ms = <50>;
+        key-positions = <19 20 21>;
+        bindings = <&kp TAB>;
+    };
+  };
 };
 
 #define XXX &none
