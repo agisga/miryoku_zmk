@@ -11,6 +11,6 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
       alphas: '["qwerty"]'
-      nav: '["vi"]'
-      kconfig: '["CONFIG_ZMK_SLEEP=y\\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=5400000"]'
-
+      nav: '["invertedt"]'
+      layers: '["flip"]'
+      clipboard: '["win"]'
