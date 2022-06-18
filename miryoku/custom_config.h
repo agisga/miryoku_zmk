@@ -30,7 +30,7 @@
 ) \
 &kp TAB       K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &key_repeat \
 &kp CAPSLOCK  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp RET \
-&kp LSHFT     K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp RSHFT \
+&skq LSHFT    K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &skq RSHFT \
                         K32  K33  K34       K35  K36  K37
 
 #define MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE 2 3
@@ -48,14 +48,8 @@
 
 //--- modified from miryoku_layer_alternatives.h
 
-#define MIRYOKU_LAYER_BASE \
-&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-&hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
-&lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH,\
-U_NP,              U_NP,              &lt U_MEDIA DEL,   &lt U_NAV BSPC,    &skq LSHFT,        &lt U_SYM SPC,     &lt U_NUM SPC,     &lt U_FUN ESC,     U_NP,              U_NP
-
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &lt U_MEDIA DEL,   &lt U_NAV BSPC,    &skq LSHFT,        &lt U_SYM SPC,     &lt U_NUM SPC,     &lt U_FUN ESC,     U_NP,              U_NP
+U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM BSPC,    &lt U_SYM RET,     &lt U_MOUSE TAB,   &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
