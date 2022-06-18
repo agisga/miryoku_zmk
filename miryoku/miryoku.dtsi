@@ -36,6 +36,8 @@ MIRYOKU_LAYER_LIST
   };
 };
 
+#include "custom_combos.dtsi"
+
 #include "miryoku_shift_functions.dtsi"
 
 #if defined (MIRYOKU_KLUDGE_MOUSEKEYSPR)
