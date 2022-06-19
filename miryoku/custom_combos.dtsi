@@ -3,6 +3,12 @@
 
     compatible = "zmk,combos";
 
+    combo_btclr {
+        timeout-ms = <50>;
+        key-positions = <0 12 24>;
+        bindings = <&bt BT_CLR>;
+    };
+
     combo_scrnsht {
         timeout-ms = <50>;
         key-positions = <1 25>;
