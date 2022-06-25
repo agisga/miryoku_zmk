@@ -52,16 +52,16 @@
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
 &lt U_BUTTON Z,    &hm RALT X,        &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &hm RALT DOT,      &lt U_BUTTON SLASH,\
-U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM BSPC,    &skq LSHFT,        &lt U_SYM SPC,     &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
+U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM TAB,     &skq LSHFT,        &lt U_SYM SPC,     &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM BSPC,    &skq LSHFT,        &lt U_SYM SPC,     &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
+U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM TAB,     &skq LSHFT,        &lt U_SYM SPC,     &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
-&kp COLON,         &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp PLUS,          &mo U_MOUSE,       &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &to U_BASE,        &to U_EXTRA,       U_NA,              &bootloader,       \
+&kp COLON,         &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp PLUS,          &mo U_MOUSE,       &kp BSPC,          &kp BSPC,          &kp BSPC,          &kp BSPC,          \
 &kp TILDE,         &kp EXCL,          &kp AT,            &kp HASH,          &kp PIPE,          &kp UNDER,         &kp MINUS,         &kp LESS_THAN,     &kp GREATER_THAN,  &kp QUESTION,              \
 U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp UNDER,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
