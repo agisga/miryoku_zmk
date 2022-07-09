@@ -60,6 +60,12 @@ U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM BSPC,    &skq
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &lt U_FUN DEL,     &lt U_NUM BSPC,    &skq LSHFT,        &lt U_SYM SPC,     &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
 
+#define MIRYOKU_LAYER_TAP \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hm LSHFT F,       &kp G,             &kp H,             &hm LSHFT J,       &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &lt U_FUN DEL,     &mo U_NUM,         &skq LSHFT,        &kp SPC,           &mo U_NAV,         &lt U_MEDIA ESC,   U_NP,              U_NP
+
 #define MIRYOKU_LAYER_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &to U_BASE,        &to U_EXTRA,       U_NA,              &bootloader,       \
 &kp COLON,         &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp PLUS,          &mo U_MOUSE,       &kp BSPC,          &kp BSPC,          &kp BSPC,          &kp BSPC,          \
