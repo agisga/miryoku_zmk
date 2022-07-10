@@ -1,4 +1,22 @@
 / {
+  macros {
+      ZMK_MACRO(bspc2_macro,
+          wait-ms = <50>;
+          tap-ms = <40>;
+          bindings = <&kp BSPC &kp BSPC>;
+      )
+      ZMK_MACRO(bspc3_macro,
+          wait-ms = <50>;
+          tap-ms = <40>;
+          bindings = <&kp BSPC &kp BSPC &kp BSPC>;
+      )
+      ZMK_MACRO(bspc5_macro,
+          wait-ms = <50>;
+          tap-ms = <40>;
+          bindings = <&kp BSPC &kp BSPC &kp BSPC &kp BSPC &kp BSPC>;
+      )
+  };
+
   combos {
 
     compatible = "zmk,combos";

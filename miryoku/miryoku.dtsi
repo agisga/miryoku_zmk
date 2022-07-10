@@ -36,7 +36,7 @@ MIRYOKU_LAYER_LIST
   };
 };
 
-#include "custom_combos.dtsi"
+#include "custom_combos_macros.dtsi"
 
 #include "miryoku_shift_functions.dtsi"
 
