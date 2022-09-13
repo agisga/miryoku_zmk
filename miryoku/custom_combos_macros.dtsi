@@ -104,5 +104,17 @@
         key-positions = <6 18>;
         bindings = <&kp TAB>;
     };
+
+    combo_ret {
+        timeout-ms = <30>;
+        key-positions = <26 27>;
+        bindings = <&kp RET>;
+    };
+
+    combo_bspc {
+        timeout-ms = <30>;
+        key-positions = <2 3>;
+        bindings = <&kp BSPC>;
+    };
   };
 };

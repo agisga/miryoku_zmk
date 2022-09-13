@@ -31,8 +31,18 @@ MIRYOKU_LAYER_LIST
       #binding-cells = <2>;
       tapping_term_ms = <U_TAPPING_TERM>;
       flavor = "tap-preferred";
-      quick-tap-ms = <125>;
+      quick-tap-ms = <150>;
       global-quick-tap;
+      bindings = <&kp>, <&kp>;
+    };
+
+    hms: homerow_shift {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_SHIFT";
+      #binding-cells = <2>;
+      tapping-term-ms = <190>;
+      flavor = "tap-preferred";
+      quick-tap-ms = <0>;
       bindings = <&kp>, <&kp>;
     };
   };
