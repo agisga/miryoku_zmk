@@ -10,10 +10,25 @@
           tap-ms = <40>;
           bindings = <&kp BSPC &kp BSPC &kp BSPC>;
       )
-      ZMK_MACRO(bspc5_macro,
+      ZMK_MACRO(paren_macro,
           wait-ms = <50>;
           tap-ms = <40>;
-          bindings = <&kp BSPC &kp BSPC &kp BSPC &kp BSPC &kp BSPC>;
+          bindings = <&kp LPAR &kp RPAR &kp LEFT>;
+      )
+      ZMK_MACRO(bkt_macro,
+          wait-ms = <50>;
+          tap-ms = <40>;
+          bindings = <&kp LBKT &kp RBKT &kp LEFT>;
+      )
+      ZMK_MACRO(brc_macro,
+          wait-ms = <50>;
+          tap-ms = <40>;
+          bindings = <&kp LBRC &kp RBRC &kp LEFT>;
+      )
+      ZMK_MACRO(dqt_macro,
+          wait-ms = <50>;
+          tap-ms = <40>;
+          bindings = <&kp DQT &kp DQT &kp LEFT>;
       )
   };
 
@@ -115,6 +130,30 @@
         timeout-ms = <30>;
         key-positions = <2 3>;
         bindings = <&kp BSPC>;
+    };
+
+    combo_bkt {
+        timeout-ms = <30>;
+        key-positions = <4 5>;
+        bindings = <&bkt_macro>;
+    };
+
+    combo_paren {
+        timeout-ms = <30>;
+        key-positions = <16 17>;
+        bindings = <&paren_macro>;
+    };
+
+    combo_brc {
+        timeout-ms = <30>;
+        key-positions = <28 29>;
+        bindings = <&brc_macro>;
+    };
+
+    combo_dqt {
+        timeout-ms = <30>;
+        key-positions = <18 19>;
+        bindings = <&dqt_macro>;
     };
   };
 };
