@@ -116,7 +116,7 @@
 
     combo_tab {
         timeout-ms = <30>;
-        key-positions = <6 18>;
+        key-positions = <8 9>;
         bindings = <&kp TAB>;
     };
 
@@ -124,6 +124,12 @@
         timeout-ms = <30>;
         key-positions = <26 27>;
         bindings = <&kp RET>;
+    };
+
+    combo_esc {
+        timeout-ms = <30>;
+        key-positions = <32 33>;
+        bindings = <&kp ESC>;
     };
 
     combo_bspc {
