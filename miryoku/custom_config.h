@@ -52,13 +52,13 @@
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &hm LGUI A,        &hm LALT R,        &hm LCTRL S,       &hms LSHFT T,      &kp D,             &kp H,             &hms LSHFT N,      &hm LCTRL E,       &hm LALT I,        &hm LGUI O,        \
 &lt U_NUM Z,       &lt U_FUN X,       &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &lt U_FUN DEL,     &sl U_NUM,         &sl U_SYM,         &kp SPC,           &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
+U_NP,              U_NP,              &lt U_FUN DEL,     &sl U_NUM,         &skq LSHFT,        &kp SPC,           &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &hm LGUI A,        &hm LALT S,        &hm LCTRL D,       &hms LSHFT F,      &kp G,             &kp H,             &hms LSHFT J,      &hm LCTRL K,       &hm LALT L,        &hm LGUI SQT,      \
 &lt U_NUM Z,       &lt U_FUN X,       &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,\
-U_NP,              U_NP,              &lt U_FUN DEL,     &sl U_NUM,         &sl U_SYM,         &kp SPC,           &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
+U_NP,              U_NP,              &lt U_FUN DEL,     &sl U_NUM,         &skq LSHFT,        &kp SPC,           &lt U_NAV SPC,     &lt U_MEDIA ESC,   U_NP,              U_NP
 
 #define MIRYOKU_LAYER_TAP \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
