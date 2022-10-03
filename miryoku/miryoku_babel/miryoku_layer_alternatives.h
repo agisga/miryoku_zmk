@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-&bootloader,       &sl U_FUN,         &sl U_SYM,         &to U_BASE,        U_NA,              &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp EQL,           &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp SEMI,          \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp BSLH,          &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp GRAVE,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp MINUS,         &kp NUM_0,         &kp DOT,           U_NP,              U_NP
+&bootloader,       &to U_TAP,         &sl U_SYM,         &to U_BASE,        &kp SEMI,          &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp COLON,         &kp EQL,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_0,         \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp BSLH,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp GRAVE,         \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp MINUS,         &kp SEMI,          U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
@@ -355,10 +355,10 @@ U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
-&bootloader,       &sl U_FUN,         &sl U_SYM,         &to U_BASE,        U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp COLON,         \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp PIPE,          &kp EXCL,          &kp AT,            &kp HASH,          &kp TILDE,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp RPAR,          &kp LPAR,          U_NP,              U_NP
+&bootloader,       &to U_TAP,         &sl U_SYM,         &to U_BASE,        &kp SEMI,          &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp COLON,         &kp PLUS,          &kp EXCL,          &kp AT,            &kp HASH,          &kp RPAR,          \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp PIPE,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp TILDE,         \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp UNDER,         &kp COLON,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &to U_BASE,        &to U_EXTRA,       &to U_TAP,         &bootloader,       \
@@ -368,9 +368,9 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
-&bootloader,       &sl U_FUN,         &sl U_SYM,         &to U_BASE,        U_NA,              U_NU,              &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
+&bootloader,       &to U_TAP,         &sl U_SYM,         &to U_BASE,        &kp SEMI,          U_NU,              &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp COLON,         U_NU,              &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp PSCRN,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
