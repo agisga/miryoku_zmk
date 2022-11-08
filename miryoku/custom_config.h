@@ -3,6 +3,32 @@
 
 #define MIRYOKU_CLIPBOARD_WIN
 
+/ {
+  behaviors {
+    // Note: quick-release fixes the issue of sticky shift producing multiple upper case letters (see https://github.com/zmkfirmware/zmk/issues/903#issuecomment-909209198).
+    skq: sticky_key_quick_release {
+      compatible = "zmk,behavior-sticky-key";
+      label = "STICKY_KEY_QUICK_RELEASE";
+      #binding-cells = <1>;
+      bindings = <&kp>;
+      release-after-ms = <1500>;
+      quick-release;
+    };
+
+    // currently not used
+    hms: homerow_shift {
+      compatible = "zmk,behavior-hold-tap";
+      label = "HOMEROW_SHIFT";
+      #binding-cells = <2>;
+      tapping-term-ms = <190>;
+      flavor = "tap-preferred";
+      quick-tap-ms = <0>;
+      bindings = <&kp>, <&kp>;
+    };
+
+  };
+};
+
 //--- modified from miryoku/mapping/42/corne.h
 
 #define XXX &none
