@@ -96,6 +96,18 @@
         bindings = <&kp LC(LG(RIGHT))>;
     };
 
+    combo_ptab {
+        timeout-ms = <30>;
+        key-positions = <4 16>;
+        bindings = <&kp LC(PAGE_UP)>;
+    };
+
+    combo_ntab {
+        timeout-ms = <30>;
+        key-positions = <5 17>;
+        bindings = <&kp LC(PAGE_DOWN)>;
+    };
+
     combo_alttab {
         timeout-ms = <30>;
         key-positions = <14 15 16>;
@@ -160,6 +172,12 @@
         timeout-ms = <30>;
         key-positions = <18 19>;
         bindings = <&dqt_macro>;
+    };
+
+    combo_repeat {
+        timeout-ms = <30>;
+        key-positions = <30 31>;
+        bindings = <&key_repeat>;
     };
   };
 };
