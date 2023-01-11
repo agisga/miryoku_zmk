@@ -342,10 +342,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 
 #define MIRYOKU_ALTERNATIVES_NUM_FLIP \
-U_BOOT,            &u_to_U_TAP,       U_NA,              &u_to_U_BASE,      &kp SEMI,          &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp SEMI,          &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp COLON,         &kp EQL,           &kp NUM_1,         &kp NUM_2,         &kp NUM_3,         &kp NUM_0,         \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp BSLH,          &kp NUM_4,         &kp NUM_5,         &kp NUM_6,         &kp GRAVE,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp UNDER,         &kp MINUS,         &kp DOT,           U_NP,              U_NP
+U_NP,              U_NP,              &kp ASTRK,         U_NA,              &kp ASTRK,         &kp UNDER,         &kp MINUS,         &kp DOT,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_NUM \
 &kp LBKT,          &kp NUM_7,         &kp NUM_8,         &kp NUM_9,         &kp RBKT,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
@@ -355,9 +355,9 @@ U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_SYM_FLIP \
-U_BOOT,            &u_to_U_TAP,       U_NA,              &u_to_U_BASE,      &kp SEMI,          &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp COLON,         &kp PLUS,          &kp EXCL,          &kp AT,            &kp HASH,          &kp RPAR,          \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             &kp PIPE,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp TILDE,         \
+U_BOOT,            &u_to_U_TAP,       U_NA,              &u_to_U_BASE,      U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp EXCL,          &kp AT,            &kp HASH,          &kp RPAR,          \
+U_NA,              U_NA,              &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA,              &kp PIPE,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp TILDE,         \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp COLON,         &kp SEMI,          U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
@@ -368,9 +368,9 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 
 
 #define MIRYOKU_ALTERNATIVES_FUN_FLIP \
-U_BOOT,            &u_to_U_TAP,       U_NA,              &u_to_U_BASE,      &kp SEMI,          U_NU,              &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         &kp COLON,         U_NU,              &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NU,              &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
+U_BOOT,            &u_to_U_TAP,       U_NA,              &u_to_U_BASE,      U_NA,              U_NU,              &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
+U_NA,              U_NA,              &u_to_U_MEDIA,     &u_to_U_FUN,       U_NA,              U_NU,              &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPC,           &kp PSCRN,         U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_FUN \
