@@ -358,7 +358,7 @@ U_NP,              U_NP,              &kp DOT,           &kp NUM_0,         &kp 
 U_BOOT,            &u_to_U_TAP,       U_NA,              &u_to_U_BASE,      U_NA,              &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp PLUS,          &kp EXCL,          &kp AT,            &kp HASH,          &kp RPAR,          \
 &kp RALT,          U_NA,              &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA,              &kp PIPE,          &kp DLLR,          &kp PRCT,          &kp CRRT,          &kp TILDE,         \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SEMI,          &kp UNDER,         U_NP,              U_NP,              U_NP
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp COLON,         &kp UNDER,         U_NP,              U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_SYM \
 &kp LBRC,          &kp AMPS,          &kp ASTRK,         &kp LPAR,          &kp RBRC,          U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
