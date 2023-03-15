@@ -1,0 +1,4 @@
+outboard_repository=https://github.com/agisga/zmk-config
+outboard_ref=master
+outboard_from=config/boards/shields/minidox
+outboard_to=boards/shields/minidox
